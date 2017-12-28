@@ -26,7 +26,7 @@ const styles = EStyleSheet.create({
     marginTop: 13,
     fontSize: 24,
     fontWeight: '600',
-    color: '#fff',
+    color: '$white',
   },
 });
 
