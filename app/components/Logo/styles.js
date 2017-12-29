@@ -4,12 +4,19 @@ import { Dimensions } from 'react-native';
 const imageWidth = Dimensions.get('window').width / 2;
 
 const styles = EStyleSheet.create({
+  $largeContainerSize: imageWidth,
+  $largeImageSize: imageWidth / 2,
+  $smallContainerSize: imageWidth / 2,
+  $smallImageSize: imageWidth / 4,
   container: {
     alignItems: 'center',
     justifyContent: 'center',
   },
   logoCombine: {
     position: 'relative',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   logoBack: {
     width: imageWidth,
@@ -19,8 +26,6 @@ const styles = EStyleSheet.create({
     position: 'absolute',
     width: imageWidth / 2,
     height: imageWidth / 2,
-    top: imageWidth / 4,
-    left: imageWidth / 4,
   },
   logoText: {
     marginTop: 13,
