@@ -8,8 +8,9 @@ EStyleSheet.build({
   $primaryBlue: '#4f6d7a',
   $white: '#fff',
   $lightGray: '#F0F0F0',
-  $border: '#979797',
+  $border: '#E2E2E2',
   $inputText: '#797979',
+  $darkText: '#343434',
 
   // $outline: 1,
 });
