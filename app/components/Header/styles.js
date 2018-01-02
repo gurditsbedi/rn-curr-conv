@@ -7,9 +7,6 @@ const styles = EStyleSheet.create({
     top: 0,
     left: 0,
     right: 0,
-    '@media android': {
-      paddingTop: StatusBar.currentHeight,
-    },
   },
   button: {
     alignSelf: 'flex-end',

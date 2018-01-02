@@ -21,11 +21,11 @@ class Home extends Component {
   };
 
   handlePressBaseCurrency = () => {
-    console.log('press base currency');
+    this.props.navigation.navigate('CurrencyList', { title: 'Base Currency' });
   };
 
   handlePressQuoteCurrency = () => {
-    console.log('press quote currency');
+    this.props.navigation.navigate('CurrencyList', { title: 'Quote Currency' });
   };
 
   handleSwapCurrency = () => {
@@ -39,7 +39,7 @@ class Home extends Component {
   render() {
     return (
       <Container>
-        <StatusBar backgroundColor="blue" barStyle="light-content" />
+        <StatusBar />
         <Header onPress={this.handleOptionsPress} />
         <KeyboardAvoidingView behavior="padding">
           <Logo />
