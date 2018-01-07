@@ -55,7 +55,11 @@ class Logo extends Component {
       { width: this.containerImageWidth, height: this.containerImageWidth },
     ];
 
-    const imageStyle = [styles.logo, { width: this.imageWidth, height: this.imageWidth }];
+    const imageStyle = [
+      styles.logo,
+      { width: this.imageWidth, height: this.imageWidth },
+      this.props.tintColor ? { tintColor: this.props.tintColor } : null,
+    ];
 
     return (
       <View style={styles.container}>

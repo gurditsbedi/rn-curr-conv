@@ -13,7 +13,6 @@ class Options extends Component {
   };
 
   handleSitePress = () => {
-    console.log('press Site');
     Linking.openURL('http://fixer.io/');
   };
 
