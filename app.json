@@ -1,5 +1,15 @@
 {
   "expo": {
-    "sdkVersion": "23.0.0"
+    "name": "Currency Converter",
+    "icon": "./icon.png",
+    "version": "1.0.0",
+    "slug": "the-first-app",
+    "sdkVersion": "23.0.0",
+    "ios": {
+      "bundleIdentifier": "com.falana.first"
+    },
+    "android": {
+      "package": "com.falana.first"
+    }
   }
 }
